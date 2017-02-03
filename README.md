@@ -1,2 +1,3 @@
-# php-tailer
+# Tailer
+
 Simulate tail command using PHP
