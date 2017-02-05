@@ -14,7 +14,14 @@
         "watcher/watcher": "^0.5.0"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.7"
+        "monolog/monolog": "^1.22",
+        "squizlabs/php_codesniffer": "^2.7",
+        "symfony/console": "^3.2",
+        "symfony/process": "^3.2"
+    },
+    "suggest": {
+        "symfony/console": "Watch your log using console now",
+        "symfony/process": "Use Process if you will run in Linux system"
     },
     "autoload": {
         "psr-4": {
